@@ -2,145 +2,147 @@
 {
     "section-one": {
         "header": "",
-        "title": "Miguelangel",
-        "title2": "Herrera",
+        "title": "JIMHENRY",
         "navitems": "",
-        "item1": "Home",
-        "item2": "about",
-        "item3": "Services",
-        "item4": "Contact Us",
-        "button": "Book Appointment"
+        "item1": "HOME",
+        "item2": "ABOUT",
+        "item3": "SELLERS",
+        "item4": "BUYERS",
+        "item5": "FREE MARKET ANALYSIS",
+        "item6": "NEW CONSTRUCTION",
+        "item7": "CONTACT",
+        "item8": "BLOG"
         
     }, 
     "section-two": { 
         "hero": "",
-        "title": "A Power that Shines Your Business",
-        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "button": "Discover Demo",
-        "image": ""
+        "title": "Real Estate Advice For Real Locals.",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+        "button": "GET STARTED",
+        "image": "https://res.cloudinary.com/dijbczjp9/image/upload/v1713467068/pexels-timur-saglambilek-87223-2-1-1024x576_xuamip.jpg"
     },
     "section-three": {
         "features": "",
-        "title": "The Professional Consultation Platform For Your Real Estate and Finance",
-        "item1": {
+        "subtitle": "WHAT ARE YOU LOOKING",
+        "title": "Full-Service Agents, Modern Technology",
+        "body": [{
+            "id":1,
             "logo": "",
-            "title": "We Innovate",
-            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            "title": "Modern Villas",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         },
-        "item2": {
+        {
+            "id":2,
             "logo": "",
-            "title": "Performance",
-            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            "title": "Furnished Homes",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         },
-        "item3": {
+         {
+            "id":3,
             "logo": "",
-            "title": "A full Service",
-            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-        }
+            "title": "Sweet Apartment",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+         {
+            "id":4,
+            "logo": "",
+            "title": "Comercial Plots",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }]
+        
     },
     "section-four": {
         "services": "",
-        "title": "Explore Our Services",
-        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
-        "items": [
+        "subtitle": "FIND YOUR PROPERTIES",
+        "title": "Explore the Properties",
+        "body": [
         {
-            "title": "Estate Planning",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "id":1,
+            "name": "House 01",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "button": "Buyer",
+            "picture": "https://res.cloudinary.com/dijbczjp9/image/upload/v1713468469/5UWNFTMQSNHFRJ6VUNNYFIGSGQ_nyrhxn.jpg"
         },
         
         {
-            "title": "Strategy and Planning",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "id":2,
+            "name": "House 02",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "button": "Buyer",
+            "picture": "https://res.cloudinary.com/dijbczjp9/image/upload/v1713885122/bosco-verticale-designed-by-stefano-boeri-2014-royalty-free-image-1676998427_hjtp9j.jpg"
         },
         {
-            "title": "Strategy and Planning",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            "title": "Resources",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            "title": "Taxes and Efficiency",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            "title": "Investment Area",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            "title": "Consumer Markets",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "id":3,
+            "name": "House 03",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "button": "Buyer",
+            "picture": "https://res.cloudinary.com/dijbczjp9/image/upload/v1713468904/rJX8zYeEx_720x0_x4yb4x.jpg"
         }
       ]
     },
     "section-five": {
-        "contact": "",
-        "title": "Make An Appointment Experience Elegance",
-        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
-        "body2": "Call Us +123 456 789",
-        "button": "¡Contact!"
+        "about": "",
+        "picture": "https://res.cloudinary.com/dijbczjp9/image/upload/v1714066869/manbuss_jdcgtg.png",
+        "subtitle": "ABOUT",
+        "title": "Watch My Intro Video",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "items": [
+            {
+                "id":1,
+                "title": "1500 +",
+                "body": "Property Sold"
+            },
+            {
+                "id":2,
+                "title": "480 +",
+                "body": "New Construction"
+            },
+            {
+                "id":3,
+                "title": "5880 +",
+                "body": "New Clients"
+            }
+        ],
+        "button": "WATCH VIDEO INTRO"
     },
     "section-six": {
-        "stats": "",
-        "title": "Let the Numbers Speak!",
-        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
-        "button": "Contact Us"
+        "services2": "",
+        "subtitle": "NEW CONSTRUCTION",
+        "title": "Explore the new Construction",
+        "body": [
+        {
+            "id":1,
+            "name": "Lorem Ipsum Simply",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "button": "Buyer",
+            "picture": "https://res.cloudinary.com/dijbczjp9/image/upload/v1713468469/5UWNFTMQSNHFRJ6VUNNYFIGSGQ_nyrhxn.jpg"
+        },
+        
+        {
+            "id":2,
+            "name": "Lorem Ipsum Simply",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "button": "Buyer",
+            "picture": "https://res.cloudinary.com/dijbczjp9/image/upload/v1713885122/bosco-verticale-designed-by-stefano-boeri-2014-royalty-free-image-1676998427_hjtp9j.jpg"
+        },
+        {
+            "id":3,
+            "name": "Lorem Ipsum Simply",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "button": "Buyer",
+            "picture": "https://res.cloudinary.com/dijbczjp9/image/upload/v1713468904/rJX8zYeEx_720x0_x4yb4x.jpg"
+        }
+      ]
     },
     "section-seven": {
-        "teamMembers": "",
-        "title": "Meet Our Experts",
-        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
-        "members" : [
-            {
-              "id": 1,
-              "name": "Tiara Lyodra",
-              "role": "Co-Founder",
-              "image": "@/public/images/Member/onemember.jpg"
-            },
-            {
-              "id": 2,
-              "name": "Landon Coleman",
-              "role": "Real Estate Expert",
-              "image": "@/public/images/Member/onemember.jpg"
-            },
-            {
-              "id": 3,
-              "name": "Landon Coleman",
-              "role": "Real Estate Expert",
-              "image": "@/public/images/Member/onemember.jpg"
-            },
-            {
-              "id": 4,
-              "name": "Landon Coleman",
-              "role": "Real Estate Expert",
-              "image": "@/public/images/Member/onemember.jpg"
-            },
-            {
-              "id": 5,
-              "name": "Landon Coleman",
-              "role": "Real Estate Expert",
-              "image": "@/public/images/Member/onemember.jpg"
-            },
-            {
-              "id": 6,
-              "name": "Landon Coleman",
-              "role": "Real Estate Expert",
-              "image": "@/public/images/Member/onemember.jpg"
-            },
-            {
-              "id": 7,
-              "name": "Landon Coleman",
-              "role": "Finance Expert",
-              "image": "@/public/images/Member/onemember.jpg"
-            },
-            {
-              "id": 8,
-              "name": "Landon Coleman",
-              "role": "Real Estate Expert",
-              "image": "@/public/images/Member/onemember.jpg"
-            }
-          ]
+        "Testimonials": "",
+        "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1714106170/ri5wl6dscznmowlanbxu.png",
+        "subtitle": "WHAT OUR CLIENTS SAY",
+        "title": "Testimonials",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "body2": [
+            { "id":1, "name":"Kiyan Dempsey",
+        "role": "Client"}]
     },
     "section-eight": {
         "projects": "",
@@ -148,32 +150,23 @@
         "body": [
             {
                 "id": 1,
-                "picture": "../../public/images/project.jpg",
-                "name": "Project Herrera",
-                "role": "Project 1 / Project"
+                "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1714106842/axbg4z7vi8llvpgaey5g.png",
+                "name": "Project JIM HENRY",
+                "role": "Project / Henry"
             }
             
         ]
     },
     "section-nine": {
-        "clients": "",
-        "title": "What Our Clients Say",
-        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
-        "client1": {
-            "body": "“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard “",
-            "name": "Ronny Abel",
-            "role": "Bussines man"
-        }
+        "Contact": "",
+        "title": "¿Want to get more Information?",
+        "button": "¡Contact us!"
     },   
     "section-ten": {
-        "band": "",
-        "title": "¿Do You Want To Get involved?",
-        "button": "¡Contact us!"
-    },
-    "section-eleven": {
         "footer": "",
-        "title": "Miguelangel Herrera"
+        "title": "Copyright 2021 All Rights Reserved. Jim Henry"
     }
+    
     
     
 

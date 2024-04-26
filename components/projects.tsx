@@ -4,8 +4,8 @@ function Projects() {
   return (
     <main className="">
       {/* header */}
-      <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-        <h1 className="text-5xl font-bold mb-7" style={{ color: "#212121" }}>
+      <div className="max-w-3xl mx-auto text-center pb-4 md:pb-10 mt-20">
+        <h1 className="text-5xl font-bold " style={{ color: "#212121" }}>
           {texts["section-eight"].title}
         </h1>
       </div>

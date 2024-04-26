@@ -1,42 +1,11 @@
-import VideoThumb from "@/public/images/hero-image.png";
-import ModalVideo from "@/components/modal-video";
 import Image from "next/image";
 import man from "../public/images/man.png";
+import texts from "@/components/utils/sections.json";
 
 export default function Hero() {
   return (
     <section className="relative">
       {/* Illustration behind hero content */}
-      <div
-        className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1"
-        aria-hidden="true"
-      >
-        <svg
-          width="1360"
-          height="578"
-          viewBox="0 0 1360 578"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <defs>
-            <linearGradient
-              x1="50%"
-              y1="0%"
-              x2="50%"
-              y2="100%"
-              id="illustration-01"
-            >
-              <stop stopColor="#FFF" offset="0%" />
-              <stop stopColor="#EAEAEA" offset="77.402%" />
-              <stop stopColor="#DFDFDF" offset="100%" />
-            </linearGradient>
-          </defs>
-          <g fill="url(#illustration-01)" fillRule="evenodd">
-            <circle cx="1232" cy="128" r="128" />
-            <circle cx="155" cy="443" r="64" />
-            <circle cx="700" cy="243" r="15" />
-          </g>
-        </svg>
-      </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-20 md:flex items-center justify-center">
         {/* Hero content */}
@@ -44,10 +13,10 @@ export default function Hero() {
           {/* Section header */}
           <div className="text-left pb-12 md:pb-16">
             <h1
-              className="text-5xl md:text-4.5xl font-extrabold leading-tighter tracking-tighter mb-4 expressa"
+              className="text-4xl md:text-4.5xl font-extrabold leading-tighter tracking-tighter mb-4 "
               data-aos="zoom-y-out"
             >
-              A Power that Shines Your Business{" "}
+              {texts["section-two"].title}{" "}
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -55,32 +24,35 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
+                {texts["section-two"].body}
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-start"
                 data-aos="zoom-y-out"
-                data-aos-delay="300"
+                data-aos-delay="100"
               >
-                <div className="flex justify-start">
+                <div className="flex justify-start ">
                   <a
-                    className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-0"
+                    className="btn text-[#23A819] hover:bg-[#E7F5E6] w-full sm:w-auto sm:ml-0"
                     href="#0"
+                    style={{
+                      width: "500px",
+                      borderBottom: "2px solid #23A819",
+                    }}
                   >
-                    Discover Demo
+                    {texts["section-two"].button}
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="md:ml-10 mt-10">
+        <div className="md:ml-10 mt-10 w-7xl">
           <Image
-            className="md:max-w-none mx-auto rounded"
-            src={man}
-            width={300}
-            height="150"
+            className="md:max-w-none mx-auto"
+            src={texts["section-two"].image}
+            width={500}
+            height="300"
             alt="Business man"
           />
         </div>

@@ -1,59 +1,60 @@
+import texts from "@/components/utils/sections.json";
+import Image from "next/image";
+import { FaPlayCircle } from "react-icons/fa";
+
 export default function ContactUs() {
   return (
     <section className="relative">
       <div
-        className="absolute inset-0 top-1 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none"
+        className="absolute inset-0 top-1 md:mt-24 lg:mt-0 bg-[#E7F5E6] pointer-events-none"
         aria-hidden="true"
       ></div>
       <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-20 flex flex-col md:flex-row items-center justify-between">
-        <div className="text-center md:text-left mb-10 md:mb-0 md:w-1/2">
-          <h2 className="expressa text-white text-4xl font-bold mb-5">
-            Make An Appointment Experience Elegance
-          </h2>
-          <p className="text-white text-start mb-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard
-          </p>
-          <div className="flex items-center justify-center md:justify-start">
-            <svg width="122" height="17" className="mx-2">
-              <line
-                x1="0"
-                y1="5"
-                x2="90%"
-                y2="5"
-                stroke="white"
-                strokeWidth="2"
-              />
-            </svg>
-            <h2 className="expressa text-white text-4xl font-bold mx-2">OR</h2>
-            <svg width="122" height="17" className="mx-2">
-              <line
-                x1="6"
-                y1="5"
-                x2="90%"
-                y2="5"
-                stroke="white"
-                strokeWidth="2"
-              />
-            </svg>
-          </div>
-          <h2 className="expressa text-white text-3xl font-bold mt-5">
-            Call Us +123 456 789
-          </h2>
-        </div>
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6  flex flex-col md:flex-row items-center justify-between">
         <div className="py-6 md:py-0 md:w-1/2 px-6 sm:px-10 md:px-0">
-          <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-            <div className="max-w-xs mx-auto">
-              <a
-                className="btn text-white bg-black hover:bg-black-700 shadow w-full"
-                href="mailto:correo@example.com"
-                target="_blank"
-              >
-                ¡Contact!
-              </a>
+          <div className="relative flex flex-col items-center   ">
+            <div className="md:ml-10 mt-10 w-7xl">
+              <Image
+                className="md:max-w-none mx-auto mr-20"
+                src={texts["section-five"].picture}
+                width={500}
+                height="300"
+                alt="Business man"
+              />
             </div>
+          </div>
+        </div>
+        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
+          <div className="text-start">
+            <h3 className="text-start">{texts["section-five"].subtitle}</h3>
+            <h1
+              className="text-3xl font-bold mb-3 text-start"
+              style={{ color: "#0a9f00" }}
+            >
+              {texts["section-five"].title}
+            </h1>
+            <p>{texts["section-five"].body}</p>
+
+            <section className="sm:flex max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-4xl  mb-10">
+              {texts["section-five"].items.map((houses) => (
+                <div
+                  key={houses.id}
+                  style={{
+                    flexDirection: "column",
+                  }}
+                >
+                  <div className="text-start">
+                    <h1 className="font-bold mt-5 text-xl">{houses.title}</h1>
+                    <p className="">{houses.body}</p>
+                  </div>
+                </div>
+              ))}
+            </section>
+            <button className="font-bold flex items-center gap-3">
+              <FaPlayCircle size={30} color="#0a9f00" />
+              {texts["section-five"].button}
+            </button>
           </div>
         </div>
       </div>

@@ -22,13 +22,13 @@ export default function Home() {
       <section id="features" className="features">
         <Features />
       </section>
-      <section id="features-blocks" className="features-blocks">
+      <section id="sellers" className="sellers">
         <Services />
       </section>
-      <section id="contact-us" className="contact-us">
+      <section id="about" className="about">
         <ContactUs />
       </section>
-      <section>
+      <section id="buyers" className="buyers">
         <Stats />
       </section>
       <section>
@@ -37,10 +37,7 @@ export default function Home() {
       <section>
         <Projects />
       </section>
-      <section>
-        <Testimonials />
-      </section>
-      <section>
+      <section id="contact-us" className="contact-us">
         <Newsletter />
       </section>
     </>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import texts from "@/components/utils/sections.json";
 
 export default function Header() {
   const [top, setTop] = useState<boolean>(true);
@@ -23,19 +24,18 @@ export default function Header() {
       }`}
       style={{ paddingTop: "30px" }}
     >
-      <div className="max-w-6xl mx-auto px-5 sm:px-6">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
           <div
-            className="expressa"
+            className=""
             style={{
               fontSize: "30px",
               display: "flex",
               flexDirection: "column",
             }}
           >
-            <span>Miguelangel</span>
-            <span style={{ paddingLeft: "15px" }}>Herrera</span>
+            <span>{texts["section-one"].title}</span>
           </div>
 
           {/* Desktop navigation */}
@@ -47,23 +47,31 @@ export default function Header() {
                   href="#hero"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Home
+                  {texts["section-one"].item1}
                 </a>
               </li>
               <li>
                 <a
-                  href="#features"
+                  href="#about"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  About
+                  {texts["section-one"].item2}
                 </a>
               </li>
               <li>
                 <a
-                  href="#features-blocks"
+                  href="#sellers"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Services
+                  {texts["section-one"].item3}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#buyers"
+                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  {texts["section-one"].item4}
                 </a>
               </li>
               <li>
@@ -73,7 +81,23 @@ export default function Header() {
                   target="_blank"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Blog
+                  {texts["section-one"].item8}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/#"
+                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  {texts["section-one"].item5}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/#"
+                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  {texts["section-one"].item6}
                 </a>
               </li>
               <li>
@@ -81,15 +105,7 @@ export default function Header() {
                   href="#contact-us"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Contact Us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
-                >
-                  <span>Book Appointment</span>
+                  {texts["section-one"].item7}
                 </a>
               </li>
             </ul>

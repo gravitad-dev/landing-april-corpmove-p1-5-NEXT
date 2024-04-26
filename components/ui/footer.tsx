@@ -1,5 +1,5 @@
 import "@/app/css/fonts.css";
-
+import texts from "@/components/utils/sections.json";
 export default function Footer() {
   return (
     <footer>
@@ -12,7 +12,7 @@ export default function Footer() {
               className="text-gray-800 font-medium mb-2 expressa"
               style={{ fontSize: "25px" }}
             >
-              Miguelangel Herrera
+              JIM HENRY
             </h6>
             <ul className="text-sm">
               <li className="mb-2">
@@ -124,7 +124,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#0"
-                  className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-gray-600 hover:text-white bg-white hover:bg-[#0B9F00] rounded-full shadow transition duration-150 ease-in-out"
                   aria-label="Twitter"
                 >
                   <svg
@@ -139,7 +139,7 @@ export default function Footer() {
               <li className="ml-4">
                 <a
                   href="#0"
-                  className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-gray-600 hover:text-white bg-white hover:bg-[#0B9F00] rounded-full shadow transition duration-150 ease-in-out"
                   aria-label="Github"
                 >
                   <svg
@@ -154,7 +154,7 @@ export default function Footer() {
               <li className="ml-4">
                 <a
                   href="#0"
-                  className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-gray-600 hover:text-white bg-white hover:bg-[#0B9F00] rounded-full shadow transition duration-150 ease-in-out"
                   aria-label="Facebook"
                 >
                   <svg
@@ -177,7 +177,7 @@ export default function Footer() {
         >
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
-            &copy; Copyright 2021 Miguelangel Herrera. All rights reserved.
+            &copy; {texts["section-ten"].title}
           </div>
         </div>
       </div>
