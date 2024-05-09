@@ -6,7 +6,7 @@ export default function TeamMembers() {
   return (
     <section className="relative">
       <div
-        className="absolute inset-0 top-1 md:mt-24 lg:mt-0 bg-[#E7F5E6] pointer-events-none"
+        className="absolute inset-0 top-1 md:mt-10 mb-14 lg:mt-0 bg-[#E7F5E6] pointer-events-none"
         aria-hidden="true"
       ></div>
       <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
@@ -15,7 +15,10 @@ export default function TeamMembers() {
         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
           <div className="text-start">
             <h3 className="text-start">{texts["section-seven"].subtitle}</h3>
-            <h1 className="text-3xl font-bold mb-3 text-start">
+            <h1
+              className="text-3xl font-bold mb-3 text-start"
+              style={{ color: "#0a9f00" }}
+            >
               {texts["section-seven"].title}
             </h1>
             <p>{texts["section-seven"].body}</p>
@@ -41,8 +44,8 @@ export default function TeamMembers() {
         </div>
         <div className="py-6 md:py-0 md:w-1/2 px-6 sm:px-10 md:px-0">
           <div className="relative flex flex-col items-center   ">
-            <div className="md:ml-10 mt-10 w-7xl">
-              <Image
+            <div className="md:ml-10 mt-20 w-7xl">
+              <img
                 className="md:max-w-none mx-auto"
                 src={texts["section-seven"].picture}
                 width={500}

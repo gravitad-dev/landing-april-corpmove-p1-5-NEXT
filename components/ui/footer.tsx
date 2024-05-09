@@ -1,5 +1,8 @@
 import "@/app/css/fonts.css";
 import texts from "@/components/utils/sections.json";
+import logo from "@/public/images/OptiLogo.png";
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer>
@@ -8,12 +11,11 @@ export default function Footer() {
         <div className="grid sm:grid-cols-10 gap-8 py-8 md:py-12 border-t border-gray-200">
           {/* 1st block */}
           <div className="sm:col-span-2 md:col-span-3 lg:col-span-3">
-            <h6
-              className="text-gray-800 font-medium mb-2 expressa"
-              style={{ fontSize: "25px" }}
-            >
-              JIM HENRY
-            </h6>
+            <div className="pb-3">
+              <a href="/">
+                <Image src={logo} alt="logo" width={250} />
+              </a>
+            </div>
             <ul className="text-sm">
               <li className="mb-2">
                 <a

@@ -15,7 +15,7 @@ function Projects() {
         {texts["section-eight"].body.map((project) => (
           <div key={project.id}>
             <div
-              className="rounded"
+              className=""
               style={{
                 backgroundColor: "#212121",
                 minHeight: "453px",
@@ -26,9 +26,8 @@ function Projects() {
                 src={project.picture}
                 alt="projectImg"
                 style={{
-                  objectFit: "cover",
-                  width: "100%",
-                  height: "100%",
+                  width: "900px",
+                  height: "700px",
                 }}
               />
             </div>

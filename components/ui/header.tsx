@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from "react";
 import texts from "@/components/utils/sections.json";
+import logo from "@/public/images/OptiLogo.png";
+import Image from "next/image";
 
 export default function Header() {
   const [top, setTop] = useState<boolean>(true);
@@ -27,15 +29,10 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
-          <div
-            className=""
-            style={{
-              fontSize: "30px",
-              display: "flex",
-              flexDirection: "column",
-            }}
-          >
-            <span>{texts["section-one"].title}</span>
+          <div className="">
+            <a href="/">
+              <Image src={logo} alt="logo" width={250} />
+            </a>
           </div>
 
           {/* Desktop navigation */}
@@ -58,22 +55,7 @@ export default function Header() {
                   {texts["section-one"].item2}
                 </a>
               </li>
-              <li>
-                <a
-                  href="#sellers"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  {texts["section-one"].item3}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#buyers"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  {texts["section-one"].item4}
-                </a>
-              </li>
+
               <li>
                 <a
                   href="/#"
@@ -84,22 +66,7 @@ export default function Header() {
                   {texts["section-one"].item8}
                 </a>
               </li>
-              <li>
-                <a
-                  href="/#"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  {texts["section-one"].item5}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/#"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  {texts["section-one"].item6}
-                </a>
-              </li>
+
               <li>
                 <a
                   href="#contact-us"

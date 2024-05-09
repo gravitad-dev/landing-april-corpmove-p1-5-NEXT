@@ -48,6 +48,7 @@ export default function Stats() {
             </div>
             <div>
               <button
+                type="button"
                 className="bg-[#E7F5E6] py-1 px-3 my-3"
                 style={{ color: "#0B9F01" }}
               >
@@ -56,9 +57,7 @@ export default function Stats() {
             </div>
             <div className="text-start">
               <h1 className="font-bold mt-5 text-xl mb-3">{building.name}</h1>
-              <p className="mx-w-xl" style={{ maxWidth: "230px" }}>
-                {building.body}
-              </p>
+              <p className="pr-4">{building.body}</p>
             </div>
           </div>
         ))}

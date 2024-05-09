@@ -35,16 +35,16 @@ export default function Features() {
                 className="max-w-sm bg-gray-200 border-transparent rounded-lg shadow hover:bg-white dark:bg-white-800 dark:border-white-700 dark:hover:bg-white-700"
               >
                 <div className="p-6">
-                  <div className="mr-4">LOGO</div>
+                  {/* <div className="mr-4">LOGO</div> */}
                   <div>
-                    <a href="#">
+                    <div>
                       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black ">
                         {card.title}
                       </h5>
                       <p className="font-normal text-gray-700 dark:text-gray-400">
                         {card.description}
                       </p>
-                    </a>
+                    </div>
                   </div>
                 </div>
               </div>
