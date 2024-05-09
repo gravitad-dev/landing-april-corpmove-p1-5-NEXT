@@ -58,7 +58,7 @@ export default function Header() {
 
               <li>
                 <a
-                  href="/#"
+                  href="https://optimoveinnovations.blog.jumpylife.com/"
                   rel="noreferrer"
                   target="_blank"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
