@@ -7,7 +7,7 @@ export default function Newsletter() {
         <div className="pb-12 md:pb-20">
           {/* CTA box */}
           <div
-            className="relative bg-[#0a9f00] mt-40 py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden"
+            className="relative bg-[#E7F5E6] mt-40 py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden"
             data-aos="zoom-y-out"
           >
             {/* Background illustration */}
@@ -18,7 +18,7 @@ export default function Newsletter() {
 
             <div className="relative flex flex-col lg:flex-row justify-between items-center">
               {/* CTA content */}
-              <h3 className="h3 text-white mb-2 ">
+              <h3 className="h3 text-white mb-2 text-[#0a9f00]">
                 {texts["section-nine"].title}
               </h3>
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">

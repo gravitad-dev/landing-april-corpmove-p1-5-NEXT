@@ -23,12 +23,14 @@ export default function Features() {
   return (
     <section className="relative max-w-6xl mx-auto px-4 sm:px-6">
       <div className="pt-12 md:pt-20">
-        <div className="text-left pb-12">
-          <h3 className="text-center">{texts["section-three"].subtitle}</h3>
+        <div className="text-left ">
+          <h3 className="text-center pb-6">
+            {texts["section-three"].subtitle}
+          </h3>
           <h1 className="h2 mb-4  text-center">
             {texts["section-three"].title}
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-14">
             {texts["section-three"].body.map((card) => (
               <div
                 key={card.id}
@@ -38,7 +40,7 @@ export default function Features() {
                   {/* <div className="mr-4">LOGO</div> */}
                   <div>
                     <div>
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black ">
+                      <h5 className="mb-2 text-2xl font-bold hover:text-[#0a9f00] tracking-tight text-gray-900 dark:text-black ">
                         {card.title}
                       </h5>
                       <p className="font-normal text-gray-700 dark:text-gray-400">

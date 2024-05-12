@@ -18,29 +18,10 @@ export default function Footer() {
             </div>
             <ul className="text-sm">
               <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Info@Support.com
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  +123 456 789
-                </a>
+                <p className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+                  Join Optimove innovations today reduce operational costs, and
+                  stay ahead in today's dynamic business landscape.
+                </p>
               </li>
             </ul>
           </div>
@@ -94,26 +75,12 @@ export default function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="https://optimoveinnovations.blog.jumpylife.com/"
+                  target="_blank"
+                  rel="noreferrer"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Testimonials
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Check Our Pricing Plan
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Expert Team
+                  Blog
                 </a>
               </li>
             </ul>

@@ -6,8 +6,9 @@
         "navitems": "",
         "item1": "HOME",
         "item2": "ABOUT",
-        "item7": "CONTACT",
-        "item8": "BLOG"
+        "item3": "BLOG",
+        "item4": "PROJECTS",
+        "item5": "CONTACT"
         
     }, 
     "section-two": { 
@@ -142,16 +143,8 @@
     },
     "section-eight": {
         "projects": "",
-        "title": "",
-        "body": [
-            {
-                "id": 1,
-                "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1715289553/OptiMove/vtrxtfn5pbpncnfhmwfx.png",
-                "name": "",
-                "role": ""
-            }
-            
-        ]
+        "title": "Our Projects",
+        "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1715289553/OptiMove/vtrxtfn5pbpncnfhmwfx.png"       
     },
     "section-nine": {
         "Contact": "",
@@ -160,7 +153,7 @@
     },   
     "section-ten": {
         "footer": "",
-        "title": "Copyright 2021 All Rights Reserved. Jim Henry"
+        "title": "Copyright 2024 All Rights Reserved. Optimove Innovations"
     }
     
     

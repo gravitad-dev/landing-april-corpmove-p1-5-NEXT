@@ -34,7 +34,7 @@ export default function Home() {
       <section>
         <TeamMembers />
       </section>
-      <section>
+      <section id="projects" className="projects">
         <Projects />
       </section>
       <section id="contact-us" className="contact-us">
