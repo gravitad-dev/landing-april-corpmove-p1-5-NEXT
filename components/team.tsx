@@ -12,11 +12,11 @@ export default function TeamMembers() {
       <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6  flex flex-col md:flex-row items-center justify-between">
-        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
+        <div className="max-w-3xl mx-auto text-center lg:pb-12 md:pb-10">
           <div className="text-start">
             <h3 className="text-start">{texts["section-seven"].subtitle}</h3>
             <h1
-              className="text-3xl font-bold mb-3 text-start"
+              className="text-3xl font-bold mb-3 text-start pt-7 lg:pt-0"
               style={{ color: "#0a9f00" }}
             >
               {texts["section-seven"].title}
@@ -32,7 +32,6 @@ export default function TeamMembers() {
                   }}
                 >
                   <div className="text-start flex items-center mt-5 gap-4">
-                    <h1 className="text-xl">{houses.name}</h1>
                     <p className="" style={{ color: "#0a9f00" }}>
                       {houses.role}
                     </p>
@@ -42,9 +41,9 @@ export default function TeamMembers() {
             </section>
           </div>
         </div>
-        <div className="py-6 md:py-0 md:w-1/2 px-6 sm:px-10 md:px-0">
+        <div className="lg:py-6 md:py-0 md:w-1/2 px-6 sm:px-10 md:px-0">
           <div className="relative flex flex-col items-center   ">
-            <div className="md:ml-10 mt-20 w-7xl">
+            <div className="md:ml-10 lg:mt-20 w-7xl">
               <img
                 className="md:max-w-none mx-auto"
                 src={texts["section-seven"].picture}

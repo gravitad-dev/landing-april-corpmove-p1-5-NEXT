@@ -11,15 +11,14 @@ export default function Stats() {
   return (
     <main className="py-60">
       {/* header */}
-      <div className="max-w-4xl mx-auto text-end pb-12 md:pb-20 ">
-        <h3 className="">{texts["section-six"].subtitle}</h3>
+      <div className="max-w-4xl mx-auto text-center flex items-center lg:text-end pb-12 md:pb-20 ">
         <h1 className="text-5xl font-bold mb-3 ">
           {texts["section-six"].title}
         </h1>
       </div>
 
       {/* building */}
-      <section className="sm:flex justify-end max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-4xl">
+      <section className="sm:flex  lg:justify-end max-w-sm mx-auto grid gap-6  md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-4xl">
         {texts["section-six"].body.map((building) => (
           <div
             key={building.id}
@@ -28,7 +27,7 @@ export default function Stats() {
             }}
           >
             <div
-              className=""
+              className="mx-auto"
               style={{
                 height: "300px",
                 width: "250px",
@@ -55,7 +54,7 @@ export default function Stats() {
                 {building.button}
               </button>
             </div>
-            <div className="text-start">
+            <div className="text-center  lg:text-start">
               <h1 className="font-bold mt-5 text-xl mb-3">{building.name}</h1>
               <p className="pr-4">{building.body}</p>
             </div>
