@@ -14,7 +14,7 @@
     "section-two": { 
         "hero": "",
         "title": "“Optimizing Corporate Mobility, Inspiring the Future“",
-        "body": "At OptiMove Innovations, we are dedicated to designing and developing innovative solutions that transform the way companies manage their corporate mobility. We are a passionate team of technology experts committed to excellence and customer satisfaction.",
+        "body": "At CorpMove Innovations, we are dedicated to designing and developing innovative solutions that transform the way companies manage their corporate mobility. We are a passionate team of technology experts committed to excellence and customer satisfaction.",
         "button": "GET STARTED",
         "image": "https://res.cloudinary.com/db60chvpz/image/upload/v1715287441/OptiMove/r8abeajbyj0wfflxlbdo.png"
     },
@@ -38,19 +38,19 @@
             "id":3,
             "logo": "",
             "title": "What makes us different?",
-            "description": "At OptiMove Innovations, we stand out for our ability to combine technological innovation with a customer-centric approach. Our solutions are personalized, intuitive and designed to provide tangible results that drive business success."
+            "description": "At CorpMove Innovations, we stand out for our ability to combine technological innovation with a customer-centric approach. Our solutions are personalized, intuitive and designed to provide tangible results that drive business success."
         },
          {
             "id":4,
             "logo": "",
             "title": "Why trust us?",
-            "description": "You can trust OptiMove Innovations because we have a proven track record of delivering high-quality solutions that exceed our customers' expectations. We are committed to providing exceptional service, ongoing support, and measurable results that drive growth and efficiency."
+            "description": "You can trust CorpMove Innovations because we have a proven track record of delivering high-quality solutions that exceed our customers' expectations. We are committed to providing exceptional service, ongoing support, and measurable results that drive growth and efficiency."
         }]
         
     },
     "section-four": {
         "services": "",
-        "subtitle": "Leading companies in various sectors trust OptiMove Innovations to optimize their corporate mobility. Our clients include large multinational corporations, innovative startups, and government organizations committed to operational excellence and sustainability.",
+        "subtitle": "Leading companies in various sectors trust CorpMove Innovations to optimize their corporate mobility. Our clients include large multinational corporations, innovative startups, and government organizations committed to operational excellence and sustainability.",
         "title": "Those who have trusted us",
         "body": [
         {
@@ -82,7 +82,7 @@
         "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1715287441/OptiMove/jens7poryivf7knvcewo.png",
         "subtitle": "",
         "title": "ABOUT",
-        "body": "Discover the future of corporate mobility with OptiMove Innovations. We are pioneers in the design and development of innovative platforms that revolutionize the way companies manage their fleets and optimize the mobility of their staff. With a unique combination of cutting-edge technology and a user-centric approach, we are changing the way companies think about enterprise mobility.",
+        "body": "Discover the future of corporate mobility with CorpMove Innovations. We are pioneers in the design and development of innovative platforms that revolutionize the way companies manage their fleets and optimize the mobility of their staff. With a unique combination of cutting-edge technology and a user-centric approach, we are changing the way companies think about enterprise mobility.",
         "items": [
             {
                 "id":1,
@@ -110,7 +110,7 @@
         {
             "id":1,
             "name": "Cutting-edge Technology",
-            "body": "At OptiMove Innovations, we pride ourselves on being at the forefront of technology. Our team of development experts is constantly innovating to deliver solutions that exceed our customers' expectations. From advanced optimization algorithms to intuitive interfaces, every aspect of our platforms is designed to provide an exceptional experience and tangible results.",
+            "body": "At CorpMove Innovations, we pride ourselves on being at the forefront of technology. Our team of development experts is constantly innovating to deliver solutions that exceed our customers' expectations. From advanced optimization algorithms to intuitive interfaces, every aspect of our platforms is designed to provide an exceptional experience and tangible results.",
             "button": "",
             "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1715287440/OptiMove/jkwgawipkgm8epiken6e.png"
         },
@@ -136,7 +136,7 @@
         "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1715289221/OptiMove/cqxlf0bvqbrvpruelk6l.png",
         "subtitle": "",
         "title": "Commitment to Continuous Innovation",
-        "body": "In a constantly evolving world, innovation is essential. At OptiMove Innovations, we are committed to continuing to lead the way in developing next-generation enterprise mobility solutions. From integrating emerging technologies to continuously improving our existing platforms, we are dedicated to driving change and providing our customers with the tools they need to succeed in an increasingly mobile world.",
+        "body": "In a constantly evolving world, innovation is essential. At CorpMove Innovations, we are committed to continuing to lead the way in developing next-generation enterprise mobility solutions. From integrating emerging technologies to continuously improving our existing platforms, we are dedicated to driving change and providing our customers with the tools they need to succeed in an increasingly mobile world.",
         "body2": [
             { "id":1, "name":"",
         "role": ""}]
@@ -153,7 +153,7 @@
     },   
     "section-ten": {
         "footer": "",
-        "title": "Copyright 2024 All Rights Reserved. Optimove Innovations"
+        "title": "Copyright 2024 All Rights Reserved. CorpMove Innovations"
     }
     
     

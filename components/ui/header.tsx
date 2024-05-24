@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import texts from "@/components/utils/sections.json";
-import logo from "@/public/images/OptiLogo.png";
+import logo from "@/public/images/corpmoveLogo.png";
 import Image from "next/image";
 
 export default function Header() {
@@ -31,7 +31,7 @@ export default function Header() {
           {/* Site branding */}
           <div className="">
             <a href="/">
-              <Image src={logo} alt="logo" width={250} />
+              <Image src={logo} alt="logo" width={210} />
             </a>
           </div>
 
@@ -58,7 +58,7 @@ export default function Header() {
 
               <li>
                 <a
-                  href="https://optimoveinnovations.blog.jumpylife.com/"
+                  href="https://corpmove.blog.jumpylife.com"
                   rel="noreferrer"
                   target="_blank"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"

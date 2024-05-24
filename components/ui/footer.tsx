@@ -1,6 +1,6 @@
 import "@/app/css/fonts.css";
 import texts from "@/components/utils/sections.json";
-import logo from "@/public/images/OptiLogo.png";
+import logo from "@/public/images/corpmoveLogo.png";
 import Image from "next/image";
 
 export default function Footer() {
@@ -13,13 +13,13 @@ export default function Footer() {
           <div className="sm:col-span-2 md:col-span-3 lg:col-span-3">
             <div className="pb-3">
               <a href="/">
-                <Image src={logo} alt="logo" width={250} />
+                <Image src={logo} alt="logo" width={210} />
               </a>
             </div>
             <ul className="text-sm">
               <li className="mb-2">
                 <p className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
-                  Join Optimove innovations today reduce operational costs, and
+                  Join CorpMove innovations today reduce operational costs, and
                   stay ahead in today's dynamic business landscape.
                 </p>
               </li>
@@ -75,7 +75,7 @@ export default function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="https://optimoveinnovations.blog.jumpylife.com/"
+                  href="https://corpmove.blog.jumpylife.com"
                   target="_blank"
                   rel="noreferrer"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
