@@ -37,9 +37,6 @@ export default function Home() {
       <section id="projects" className="projects">
         <Projects />
       </section>
-      <section id="contact-us" className="contact-us">
-        <Newsletter />
-      </section>
     </>
   );
 }

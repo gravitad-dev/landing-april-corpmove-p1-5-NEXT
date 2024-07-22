@@ -40,7 +40,7 @@ export default function Features() {
                   {/* <div className="mr-4">LOGO</div> */}
                   <div>
                     <div>
-                      <h5 className="mb-2 text-2xl font-bold hover:text-[#0a9f00] tracking-tight text-gray-900 dark:text-black ">
+                      <h5 className="mb-2 text-2xl font-bold hover:text-[#e6ba0c] tracking-tight text-gray-900 dark:text-black ">
                         {card.title}
                       </h5>
                       <p className="font-normal text-gray-700 dark:text-gray-400">

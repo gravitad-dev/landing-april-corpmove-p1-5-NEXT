@@ -77,7 +77,8 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="#contact-us"
+                  href="https://corpmove.blog.jumpylife.com/contacto"
+                  target="blanck_"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   {texts["section-one"].item5}

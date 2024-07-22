@@ -30,20 +30,7 @@ export default function Hero() {
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-start "
                 data-aos="zoom-y-out"
                 data-aos-delay="100"
-              >
-                <div className="flex justify-start">
-                  <a
-                    className="btn text-[#23A819] hover:bg-[#E7F5E6]  w-full"
-                    href="#0"
-                    style={{
-                      maxWidth: "500px",
-                      borderBottom: "2px solid #23A819",
-                    }}
-                  >
-                    {texts["section-two"].button}
-                  </a>
-                </div>
-              </div>
+              ></div>
             </div>
           </div>
         </div>

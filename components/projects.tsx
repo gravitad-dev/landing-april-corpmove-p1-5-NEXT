@@ -25,21 +25,25 @@ function Projects() {
             PLATFORM
           </h2>
           <p>
-            Introducing our cutting-edge Enterprise Mobility Optimization
-            Platform (EMOP). Designed and developed to streamline the
-            complexities of enterprise mobility, EMOP offers a comprehensive
-            solution to enhance workforce efficiency, productivity, and
-            security. Our platform leverages advanced algorithms and data
-            analytics to optimize resource allocation, minimize downtime, and
-            ensure seamless connectivity across all devices and networks. With
-            EMOP, businesses can effectively manage their mobile infrastructure,
-            reduce operational costs, and stay ahead in today's dynamic business
-            landscape. Experience the future of enterprise mobility with EMOP.
+            Presentamos nuestra plataforma de optimización de la movilidad
+            empresarial (EMOP) de vanguardia. Diseñado y desarrollado para
+            optimizar las complejidades de la movilidad empresarial, EMOP ofrece
+            una solución integral para mejorar la eficiencia, la productividad y
+            la seguridad de la fuerza laboral. Nuestra plataforma aprovecha
+            algoritmos avanzados y análisis de datos para optimizar la
+            asignación de recursos, minimizar el tiempo de inactividad y
+            garantizar una conectividad perfecta en todos los dispositivos y
+            redes. Con EMOP, las empresas pueden gestionar eficazmente su
+            infraestructura móvil, reducir los costos operativos y mantenerse a
+            la vanguardia en el dinámico panorama empresarial actual.
+            Experimente el futuro de la movilidad empresarial con EMOP.
           </p>
           <div className="card-actions justify-end">
-            <button type="button" className="btn btn-primary">
-              Go
-            </button>
+            <a href="https://corpmove.blog.jumpylife.com" target="blank_">
+              <button type="button" className="btn btn-primary">
+                Ir
+              </button>
+            </a>
           </div>
         </div>
       </div>
